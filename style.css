@@ -1,0 +1,39 @@
+body{
+     text-align: center
+}
+h1{
+    text-decoration: underline;
+}
+p{
+  text-decoration: line-through;
+  font-size: 25px;  
+}
+span{
+    background-color: yellow;
+    color: red
+}
+div{
+    font-family: fantasy;
+    font-style: italic;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 20px auto;
+}
+h1:hover{
+    text-decoration: none;
+    font-style: italic;
+}
+p:hover{
+    text-decoration: none;
+}
+span:hover{
+    background-color: red;
+    color: yellow;
+}
+div:hover{
+    text-decoration: underline;
+    font-style: normal;
+}
